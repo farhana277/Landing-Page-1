@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: orange !important;
+  transform: scale(1.1);
+}
+
 .hero-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -17,9 +26,16 @@
   transform: none;
 }
 
-.hero-text {
-  margin-top: 0; 
+
+.hero-section h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;  
+  font-size: 70px;   
+  line-height: 81px; 
+  letter-spacing: 0%;
 }
+
+
 
 @media (min-width: 992px) {
   .hero-custom-img {
@@ -33,7 +49,7 @@
 
 @media (max-width: 991.98px) {
   .hero-section .row {
-    flex-direction: column-reverse; /* Text first, image after on mobile */
+    flex-direction: column-reverse;
     gap: 2rem;
   }
 
@@ -42,7 +58,6 @@
     transform: none !important;
   }
 }
-
 
 .font-abel {
   font-family: "Abel", sans-serif;
@@ -54,12 +69,21 @@
   border-radius: 30px;
   padding: 0.75rem 1.5rem;
   font-weight: 600;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: transparent;
+  color: #ff7a00;
+  border: 2px solid #ff7a00;
+  transform: scale(1.1);
 }
 
 .btn-light img {
   height: 20px;
   margin-right: 8px;
-  vertical-align: baseline;
+  vertical-align: center;
 }
 
 .icon-img {
@@ -69,8 +93,9 @@
 .service-card {
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), -4px 8px 16px rgba(0, 0, 0, 0.05),
+  box-shadow: -4px 8px 16px rgba(0, 0, 0, 0.05),
     4px 8px 16px rgba(0, 0, 0, 0.05);
+
   padding: 4rem 2rem;
   height: 100%;
   display: flex;
@@ -84,7 +109,7 @@
 }
 
 .text-voilet-blue {
-  color: #5a32ea; /* or any violet-blue you prefer */
+  color: #5a32ea;
 }
 
 .btn-outline-voilet-blue {
@@ -149,14 +174,14 @@
 }
 
 .team-name {
-  color: #666; /* light gray name */
+  color: #666;
   font-weight: 500;
 }
 
 .team-role {
   text-transform: uppercase;
   font-size: 0.85rem;
-  color: #999; /* uppercase gray role */
+  color: #999;
   letter-spacing: 1px;
 }
 
@@ -179,9 +204,15 @@
   border: 1px solid #ddd;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.footer {
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
-footer {
-  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.1); /* subtle bottom shadow */
+
+.footer a {
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  color: orange !important;
+  transform: scale(1.2);
 }

@@ -12,13 +12,19 @@
       href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+
+
+
+
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header -->
 
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <nav class="navbar navbar-expand-lg shadow-sm py-3">
       <div class="container">
         <!-- Left: Logo Image -->
         <a class="navbar-brand" href="#">
@@ -46,19 +52,19 @@
               <a class="nav-link text-dark" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">About Us</a>
+              <a class="nav-link text-dark" href="#testmonials">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Our App</a>
+              <a class="nav-link text-dark" href="#service">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Contacts</a>
+              <a class="nav-link text-dark" href="#contact">Contacts</a>
             </li>
           </ul>
         </div>
 
         <!-- Right: Auth Buttons -->
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center gap-2">
           <a class="nav-link text-dark me-2 d-none d-lg-block" href="#"
             >Log in</a
           >
@@ -72,22 +78,22 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hero-section py-5">
+    <section class="hero-section py-5"id="hero-section">
       <div class="container">
         <div class="row align-items-center">
           <!-- Image Column -->
           <div class="col-lg-6 order-1 order-lg-2">
             <img src="./img/Group 32.png" alt="Hero" class="hero-custom-img" />
           </div>
-    
+
           <!-- Text Column -->
           <div class="col-lg-6 order-2 order-lg-1 hero-text">
             <h1 class="display-4 fw-bold">
-              We boost <br />growth for your <br />startup business
+              We boost <br />growth for your startup business
             </h1>
             <p class="lead fw-bold mt-3 flex-wrap">
-              Our goal is top at the heart of creativity services industry as a
-              digital creator.In has a after comment
+              Our goal is top at the heart of creativity services <br> industry as a
+              digital creator.In has a after <br>comment
             </p>
             <div class="d-flex gap-3 mt-4 flex-wrap">
               <a href="#" class="btn btn-orange">Get Started</a>
@@ -103,10 +109,9 @@
         </div>
       </div>
     </section>
-    
 
     <!-- Services -->
-    <section class="service-section py-5">
+    <section class="service-section py-5" id="service">
       <div class="container text-center">
         <h6 class="text-secondary">S U R V I C E</h6>
         <h1 class="font-abel mb-5">Our Vision & Our Goal</h1>
@@ -195,7 +200,7 @@
     </section>
 
     <!-- Clients / Testimonials -->
-    <div class="container py-5">
+    <div class="container py-5 text-center" id="testmonials">
       <h6 class="text-center text-secondary">T E S T M O N I A L S</h6>
       <h2 class="section-title font-abel">What Clients say about us</h2>
 
@@ -253,8 +258,9 @@
     </div>
 
     <!-- Team -->
-    <section class="py-5">
+    <section class="py-5" id="team">
       <div class="container text-center">
+        <h6 class="text-center text-secondary">T E A M</h6>
         <h2 class="fw-bold mb-5">Meet the Team</h2>
         <div class="row g-4">
           <!-- Team Member Card 1-->
@@ -278,11 +284,11 @@
           <div class="col-md-4">
             <div class="team-card">
               <img
-                src="./img/vanessa.png"
+                src="./img/Mason.png"
                 alt="Vanessa"
                 class="team-img mb-3"
               />
-              <h5 class="team-name">Vanessa Laird</h5>
+              <h5 class="team-name">Mason Campbell</h5>
               <p class="team-role">UI DESIGNER</p>
               <div class="team-grid mt-4">
                 <span></span>
@@ -295,11 +301,11 @@
           <div class="col-md-4">
             <div class="team-card">
               <img
-                src="./img/vanessa.png"
+                src="./img/Irea.png"
                 alt="Vanessa"
                 class="team-img mb-3"
               />
-              <h5 class="team-name">Vanessa Laird</h5>
+              <h5 class="team-name">Irea Evans</h5>
               <p class="team-role">UI DESIGNER</p>
               <div class="team-grid mt-4">
                 <span></span>
@@ -313,7 +319,7 @@
     </section>
 
     <!-- Newsletter -->
-    <section class="py-5">
+    <section class="py-5" id="contact">
       <div class="container">
         <h2 class="font-abel text-center">Subscribe Our Newsletter</h2>
         <div class="row align-items-center">
@@ -355,11 +361,11 @@
 
         <!-- Right side -->
         <div class="d-flex flex-wrap gap-3">
-          <a href="#" class="text-dark text-decoration-none">Login</a>
-          <a href="#" class="text-dark text-decoration-none">About</a>
-          <a href="#" class="text-dark text-decoration-none">Pricing</a>
-          <a href="#" class="text-dark text-decoration-none">How it Works</a>
-          <a href="#" class="text-dark text-decoration-none">Portfolio</a>
+          <a href="#hero-section" class="text-dark text-decoration-none">Home</a>
+          <a href="#testmonials" class="text-dark text-decoration-none">About</a>
+          <a href="#team" class="text-dark text-decoration-none">Team</a>
+          <a href="#contact" class="text-dark text-decoration-none">Newsletter</a>
+          <a href="#service" class="text-dark text-decoration-none">Service</a>
         </div>
       </div>
     </footer>
