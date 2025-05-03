@@ -8,7 +8,7 @@
 }
 .hero-custom-img {
   transform: translateX(-20%);
-  max-width: 900px;
+  max-width: 800px;
 }
 .hero-text{
  margin-top: -80px;
