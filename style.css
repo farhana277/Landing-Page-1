@@ -7,7 +7,8 @@
 .hero-custom-img {
   max-width: 1000px;
   height: auto;
-  margin-left: -80px; /* Move image closer to the text */
+  margin-left: 20px; 
+  margin-top: 80px;  
   z-index: 1;
 }
 
