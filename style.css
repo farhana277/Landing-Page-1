@@ -1,169 +1,167 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-section{
+  height:auto;
 }
 .hero-custom-img {
-  max-width: 1000px;
-  height: auto;
-   
-  margin-top: 80px;  
-  z-index: 1;
+  transform: translateX(-20%);
+  max-width: 700px;
+}
+.hero-text{
+ margin-top: -80px;
 }
 
 @media (max-width: 991.98px) {
+  .hero-text{
+    margin-top: 0px;
+   }
   .hero-custom-img {
     position: static !important;
     transform: none !important;
-    margin-left: 0;
-    margin-top: 2rem;
-    width: 100%;
   }
 }
 
-  .font-abel {
-    font-family: 'Abel', sans-serif;
-  }
-  
-  .btn-orange {
-    background-color: #FF7A00;
-    color: #fff;
-    border-radius: 30px;
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
-  }
-  
-  .btn-light img {
-    height: 20px;
-    margin-right: 8px;
-    vertical-align: baseline;
-  }
-  
-  .icon-img{
-    margin-bottom:40px ;
-  }
+.font-abel {
+  font-family: "Abel", sans-serif;
+}
 
-  .service-card {
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 
-                -4px 8px 16px rgba(0, 0, 0, 0.05), 
-                 4px 8px 16px rgba(0, 0, 0, 0.05);
-    padding: 4rem 2rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .text-voilet-blue {
-    color: #5A32EA; /* or any violet-blue you prefer */
-  }
+.btn-orange {
+  background-color: #ff7a00;
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+}
 
-  .btn-outline-voilet-blue {
-    color: #5A32EA;
-    border: 2px solid #5A32EA;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-outline-voilet-blue:hover {
-    background-color: #5A32EA;
-    color: #fff;
-  }
-  
-  .testimonial-card {
-    border: 1px solid #ffffff10;
-    border-radius: 10px;
-    padding: 20px;
-   
-    color: #1e2a47;
-    height: 100%;
-  }
+.btn-light img {
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: baseline;
+}
 
-  .testimonial-card img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    margin-right: 15px;
-  }
+.icon-img {
+  margin-bottom: 40px;
+}
 
-  .testimonial-card h6 {
-    color: #3b82f6;
-    margin-top: 15px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-  }
+.service-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), -4px 8px 16px rgba(0, 0, 0, 0.05),
+    4px 8px 16px rgba(0, 0, 0, 0.05);
+  padding: 4rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s ease;
+}
 
-  .testimonial-text {
-    color: #1e2a47;
-    font-weight: 500;
-  }
+.service-card:hover {
+  transform: translateY(-5px);
+}
 
+.text-voilet-blue {
+  color: #5a32ea; /* or any violet-blue you prefer */
+}
 
+.btn-outline-voilet-blue {
+  color: #5a32ea;
+  border: 2px solid #5a32ea;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
 
-  .team-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 16px;
-    padding: 2rem 1rem;
-    transition: 0.3s;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  }
-  
-  .team-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .team-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .team-name {
-    color: #666; /* light gray name */
-    font-weight: 500;
-  }
-  
-  .team-role {
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    color: #999; /* uppercase gray role */
-    letter-spacing: 1px;
-  }
-  
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    margin-top: 1rem;
-  }
-  
-  .team-grid span {
-    height: 40px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-  }
-  
-  .newsletter-input {
-    border-radius: 30px;
-    padding: 0.75rem 1rem;
-    border: 1px solid #ddd;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  footer {
-    box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.1); /* subtle bottom shadow */
-  }
-  
+.btn-outline-voilet-blue:hover {
+  background-color: #5a32ea;
+  color: #fff;
+}
+
+.testimonial-card {
+  border: 1px solid #ffffff10;
+  border-radius: 10px;
+  padding: 20px;
+
+  color: #1e2a47;
+  height: 100%;
+}
+
+.testimonial-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.testimonial-card h6 {
+  color: #3b82f6;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.testimonial-text {
+  color: #1e2a47;
+  font-weight: 500;
+}
+
+.team-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 2rem 1rem;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-name {
+  color: #666; /* light gray name */
+  font-weight: 500;
+}
+
+.team-role {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: #999; /* uppercase gray role */
+  letter-spacing: 1px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.team-grid span {
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.newsletter-input {
+  border-radius: 30px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer {
+  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.1); /* subtle bottom shadow */
+}
