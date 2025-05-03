@@ -1,230 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Landing Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
 
-<!-- Header -->
-<!-- Pixel-Perfect Header with Toggle -->
-<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-    <div class="container">
-      <!-- Left: Logo Image -->
-      <a class="navbar-brand" href="#">
-        <img src="./img/Logo-1.png" alt="Logo" style="height: 40px;">
-      </a>
-  
-      <!-- Toggle for Mobile -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Collapsible Content -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-        <!-- Center: Nav Links -->
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center text-lg-start">
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Our App</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contacts</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+      <div class="container">
+        <!-- Left: Logo Image -->
+        <a class="navbar-brand" href="#">
+          <img src="./img/Logo-1.png" alt="Logo" style="height: 40px" />
+        </a>
+
+        <!-- Toggle for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible Content -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCollapse"
+        >
+          <!-- Center: Nav Links -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center text-lg-start">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Our App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right: Auth Buttons -->
+        <div class="d-flex align-items-center">
+          <a class="nav-link text-dark me-2 d-none d-lg-block" href="#"
+            >Log in</a
+          >
+          <a
+            href="#"
+            class="btn btn-orange btn-sm rounded-pill px-4 d-none d-lg-block"
+            >Sign up</a
+          >
+        </div>
       </div>
-  
-      <!-- Right: Auth Buttons -->
-      <div class="d-flex align-items-center">
-        <a class="nav-link text-dark me-2 d-none d-lg-block" href="#">Log in</a>
-        <a href="#" class="btn btn-orange btn-sm rounded-pill px-4 d-none d-lg-block">Sign up</a>
-      </div>
-    </div>
-  </nav>
-  
+    </nav>
 
-<!-- Hero -->
-<section class="position-relative" style="min-height: 700px;">
-    <div class="container-fluid position-relative">
-  
-      <!-- Hero Text -->
-      <div class="hero-text">
-        <h1 class="display-1 fw-bold">We boost <br/>growth for your <br/>startup business</h1>
+    <!-- Hero -->
+   <!-- Hero -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center min-vh-100 position-relative">
+      
+      <!-- Text Column -->
+      <div class="col-lg-6 pe-lg-5 z-2">
+        <h1 class="display-4 fw-bold">
+          We boost <br />growth for your <br />startup business
+        </h1>
         <p class="lead fw-bold mt-3">
-          Our goal is top at the heart of creativity services <br/>
+          Our goal is top at the heart of creativity services <br />
           industry as a digital creator. In has a after comment
         </p>
-        <div class="d-flex gap-3 mt-4">
+        <div class="d-flex gap-3 mt-4 flex-wrap">
           <a href="#" class="btn btn-orange">Get Started</a>
-          <a href="#" class="btn btn-light btn-lg">
-            <img src="./img/Learn More icon.png" alt="icon">
-            Learn More</a>
+          <a href="#" class="btn btn-light btn-lg d-flex align-items-center gap-2">
+            <img src="./img/Learn More icon.png" alt="icon" />
+            Learn More
+          </a>
         </div>
       </div>
-  
-      <!-- Hero Image -->
-      <div class="hero-image">
-        <img src="./img/Group 32.png" alt="Hero" class="hero-img">
-      </div>
-  
-    </div>
-  </section>
-  
-  
-  
 
-<!-- Services -->
-<section class="py-5" id="services">
-  <div class="container text-center">
-    <h6 class="text-secondary">S U R V I C E</h6>
-    <h1 class="font-abel mb-5">Our Vision & Our Goal</h1>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="service-card text-center h-100">
-          <img src="./img/Graphic.png" alt="Graphic" class="icon-img">
-          <h5>Graphic Design</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sint maiores illo adipisci a accusantium ipsam nesciunt laboriosam explicabo in cumque laudantium omnis, voluptates quam vero! Atque nostrum voluptatem pariatur?</p>
-          <a href="#"class="btn btn-orange btn-lg">Learn More</a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-card text-center h-100">
-          <img src="./img/Video.png" alt="Video" class="icon-img">
-          <h5>Video Editing</h5>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure reiciendis numquam temporibus voluptatum a velit. Earum alias culpa assumenda blanditiis rem dignissimos quos? Facilis, autem repellendus? Facere quis animi tenetur!</p>
-          <a href="#" class="btn btn-orange btn-lg">Learn More</a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-card text-center h-100">
-          <img src="./img/Marketing.png" alt="Marketing" class="icon-img">
-          <h5>Digital Marketing</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis vitae nisi eligendi modi neque! Pariatur eius dignissimos itaque ad aut reiciendis obcaecati, consectetur voluptate nemo, in eum similique suscipit.</p>
-          <a href="#" class="btn btn-orange btn-lg">Learn More</a>
-        </div>
+      <!-- Image Column -->
+      <div class="col-lg-6 position-relative">
+        <img src="./img/Group 32.png" alt="Hero" class="img-fluid hero-custom-img position-absolute top-50 start-0 translate-middle-y" />
       </div>
     </div>
   </div>
 </section>
 
-<!-- Explore -->
-<section class="py-5">
-    <div class="container py-5">
-      <div class="row">
-        <!-- Left content column -->
-        <div class="col-lg-6 d-flex flex-column justify-content-between" style="min-height: 100%;">
-          <div>
-            <h2 class="fw-bold mb-3 text-voilet-blue">Many Blocks and Components</h2>
-            <p class="text-secondary mt-5">Startup Framework contains components<br/> and complex blocks which can easily be<br/> integrated into almost any design.</p>
-          </div>
-          <div class="mt-auto">
-            <a href="#" class="btn btn-outline btn-outline-voilet-blue btn-lg rounded-pill px-4 py-2">Explore</a>
-          </div>
-        </div>
-  
-        <!-- Right image column -->
-        <div class="col-lg-6">
-          <img src="./img/Video Player.png" alt="Explore Visual" class="img-fluid rounded" />
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-  
 
-<!-- Clients / Testimonials -->
-<div class="container py-5">
-   
-    <h6 class="text-center text-secondary" >T E S T M O N I A L S</h6>
-    <h2 class="section-title font-abel">What Clients say about us</h2>
-
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="testimonial-card d-flex flex-column">
-          <div class="d-flex align-items-center">
-            <img src="./img/client-1.png" alt="Rayhan Curran">
-            <p class="testimonial-text mb-0">Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support.</p>
+    <!-- Services -->
+    <section class="py-5" id="services">
+      <div class="container text-center">
+        <h6 class="text-secondary">S U R V I C E</h6>
+        <h1 class="font-abel mb-5">Our Vision & Our Goal</h1>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-card text-center h-100">
+              <img src="./img/Graphic.png" alt="Graphic" class="icon-img" />
+              <h5>Graphic Design</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                sint maiores illo adipisci a accusantium ipsam nesciunt
+                laboriosam explicabo in cumque laudantium omnis, voluptates quam
+                vero! Atque nostrum voluptatem pariatur?
+              </p>
+              <a href="#" class="btn btn-orange btn-lg">Learn More</a>
+            </div>
           </div>
-          <h6>RAYHAN CURRAN</h6>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="testimonial-card d-flex flex-column">
-          <div class="d-flex align-items-center">
-            <img src="./img/client-2.png" alt="Kayley Frame">
-            <p class="testimonial-text mb-0">As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website.</p>
+          <div class="col-md-4">
+            <div class="service-card text-center h-100">
+              <img src="./img/Video.png" alt="Video" class="icon-img" />
+              <h5>Video Editing</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                reiciendis numquam temporibus voluptatum a velit. Earum alias
+                culpa assumenda blanditiis rem dignissimos quos? Facilis, autem
+                repellendus? Facere quis animi tenetur!
+              </p>
+              <a href="#" class="btn btn-orange btn-lg">Learn More</a>
+            </div>
           </div>
-          <h6>KAYLEY FRAME</h6>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="testimonial-card d-flex flex-column">
-          <div class="d-flex align-items-center">
-            <img src="./img/client-3.png" alt="Gene Whitfield">
-            <p class="testimonial-text mb-0">The most important part of the Startup Framework is the samples.</p>
-          </div>
-          <h6>GENE WHITFIELD</h6>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="testimonial-card d-flex flex-column">
-          <div class="d-flex align-items-center">
-            <img src="./img/client-4.png" alt="Allan Kim">
-            <p class="testimonial-text mb-0">I've built my website with Startup just in one day, and it was ready-to-go.</p>
-          </div>
-          <h6>ALLAN KIM</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Team -->
-<section class="py-5">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-5">Meet the Team</h2>
-      <div class="row g-4">
-  
-        <!-- Team Member Card 1-->
-        <div class="col-md-4">
-          <div class="team-card">
-            <img src="./img/vanessa.png" alt="Vanessa" class="team-img mb-3">
-            <h5 class="team-name">Vanessa Laird</h5>
-            <p class="team-role">UI DESIGNER</p>
-            <div class="team-grid mt-4">
-              <span></span>
-              <span></span>
-              <span></span>
+          <div class="col-md-4">
+            <div class="service-card text-center h-100">
+              <img src="./img/Marketing.png" alt="Marketing" class="icon-img" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                blanditiis vitae nisi eligendi modi neque! Pariatur eius
+                dignissimos itaque ad aut reiciendis obcaecati, consectetur
+                voluptate nemo, in eum similique suscipit.
+              </p>
+              <a href="#" class="btn btn-orange btn-lg">Learn More</a>
             </div>
           </div>
         </div>
-    <!-- Team Member Card 2-->
-    <div class="col-md-4">
-        <div class="team-card">
-          <img src="./img/vanessa.png" alt="Vanessa" class="team-img mb-3">
-          <h5 class="team-name">Vanessa Laird</h5>
-          <p class="team-role">UI DESIGNER</p>
-          <div class="team-grid mt-4">
-            <span></span>
-            <span></span>
-            <span></span>
+      </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <!-- Left content column -->
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-between"
+            style="min-height: 100%"
+          >
+            <div>
+              <h2 class="fw-bold mb-3 text-voilet-blue">
+                Many Blocks and Components
+              </h2>
+              <p class="text-secondary mt-5">
+                Startup Framework contains components<br />
+                and complex blocks which can easily be<br />
+                integrated into almost any design.
+              </p>
+            </div>
+            <div class="mt-auto">
+              <a
+                href="#"
+                class="btn btn-outline btn-outline-voilet-blue btn-lg rounded-pill px-4 py-2"
+                >Explore</a
+              >
+            </div>
+          </div>
+
+          <!-- Right image column -->
+          <div class="col-lg-6">
+            <img
+              src="./img/Video Player.png"
+              alt="Explore Visual"
+              class="img-fluid rounded"
+            />
           </div>
         </div>
       </div>
-        <!-- Team Member Card 3-->
-        <div class="col-md-4">
+    </section>
+
+    <!-- Clients / Testimonials -->
+    <div class="container py-5">
+      <h6 class="text-center text-secondary">T E S T M O N I A L S</h6>
+      <h2 class="section-title font-abel">What Clients say about us</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="testimonial-card d-flex flex-column">
+            <div class="d-flex align-items-center">
+              <img src="./img/client-1.png" alt="Rayhan Curran" />
+              <p class="testimonial-text mb-0">
+                Get a fully retina ready site when you build with Startup
+                Framework. Websites look sharper and more gorgeous on devices
+                with retina display support.
+              </p>
+            </div>
+            <h6>RAYHAN CURRAN</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card d-flex flex-column">
+            <div class="d-flex align-items-center">
+              <img src="./img/client-2.png" alt="Kayley Frame" />
+              <p class="testimonial-text mb-0">
+                As a business targeting high net worth individuals, we were
+                looking for a slick, cool and mini-malistic design for our
+                website.
+              </p>
+            </div>
+            <h6>KAYLEY FRAME</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card d-flex flex-column">
+            <div class="d-flex align-items-center">
+              <img src="./img/client-3.png" alt="Gene Whitfield" />
+              <p class="testimonial-text mb-0">
+                The most important part of the Startup Framework is the samples.
+              </p>
+            </div>
+            <h6>GENE WHITFIELD</h6>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card d-flex flex-column">
+            <div class="d-flex align-items-center">
+              <img src="./img/client-4.png" alt="Allan Kim" />
+              <p class="testimonial-text mb-0">
+                I've built my website with Startup just in one day, and it was
+                ready-to-go.
+              </p>
+            </div>
+            <h6>ALLAN KIM</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-5">Meet the Team</h2>
+        <div class="row g-4">
+          <!-- Team Member Card 1-->
+          <div class="col-md-4">
             <div class="team-card">
-              <img src="./img/vanessa.png" alt="Vanessa" class="team-img mb-3">
+              <img
+                src="./img/vanessa.png"
+                alt="Vanessa"
+                class="team-img mb-3"
+              />
               <h5 class="team-name">Vanessa Laird</h5>
               <p class="team-role">UI DESIGNER</p>
               <div class="team-grid mt-4">
@@ -234,67 +273,96 @@
               </div>
             </div>
           </div>
-</div>
-    </div>
-  </section>
-  
-
-<!-- Newsletter -->
-<section class="py-5">
-    <div class="container">
-        
-        <h2 class="font-abel text-center">Subscribe Our Newsletter</h2>
-      <div class="row align-items-center">
-        
-        <!-- Left: Image -->
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <img src="./img/Group.png" alt="Newsletter" class="img-fluid">
-        </div>
-  
-        <!-- Right: Text + Input + Button -->
-        <div class="col-lg-6">
-          
-          <p class="text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-  
-          <!-- Stacked input + button with same width -->
-          <div class="mt-4" style="max-width: 500px;">
-            <input type="email" class="form-control newsletter-input mb-3" placeholder="Your email here...">
-            <a class="btn btn-orange btn-lg w-100">Get Started</a>
+          <!-- Team Member Card 2-->
+          <div class="col-md-4">
+            <div class="team-card">
+              <img
+                src="./img/vanessa.png"
+                alt="Vanessa"
+                class="team-img mb-3"
+              />
+              <h5 class="team-name">Vanessa Laird</h5>
+              <p class="team-role">UI DESIGNER</p>
+              <div class="team-grid mt-4">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
           </div>
-          
+          <!-- Team Member Card 3-->
+          <div class="col-md-4">
+            <div class="team-card">
+              <img
+                src="./img/vanessa.png"
+                alt="Vanessa"
+                class="team-img mb-3"
+              />
+              <h5 class="team-name">Vanessa Laird</h5>
+              <p class="team-role">UI DESIGNER</p>
+              <div class="team-grid mt-4">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  
+    </section>
 
-<!-- Footer -->
-<footer class="footer py-5">
-    <div class="container d-flex justify-content-between flex-wrap align-items-center gap-5">
-      
-      <!-- Left side -->
-      <div class="d-flex align-items-center justify-content-between gap-5">
-        <img src="./img/Logo-2.png" alt="Logo" style="height: 40px;" >
-        <p class="mb-0 text-muted">© 2020 Epixelab. All rights reserved.</p>
-      </div>
-  
-      <!-- Right side -->
-      <div class="d-flex flex-wrap gap-3">
-        <a href="#" class="text-dark text-decoration-none">Login</a>
-        <a href="#" class="text-dark text-decoration-none">About</a>
-        <a href="#" class="text-dark text-decoration-none">Pricing</a>
-        <a href="#" class="text-dark text-decoration-none">How it Works</a>
-        <a href="#" class="text-dark text-decoration-none">Portfolio</a>
-      </div>
-  
-    </div>
-  </footer>
-  
+    <!-- Newsletter -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="font-abel text-center">Subscribe Our Newsletter</h2>
+        <div class="row align-items-center">
+          <!-- Left: Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img src="./img/Group.png" alt="Newsletter" class="img-fluid" />
+          </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+          <!-- Right: Text Input + Button -->
+          <div class="col-lg-6">
+            <p class="text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <div class="mt-4" style="max-width: 500px">
+              <input
+                type="email"
+                class="form-control newsletter-input mb-3"
+                placeholder="Your email here..."
+              />
+              <a class="btn btn-orange btn-lg w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div
+        class="container d-flex justify-content-between flex-wrap align-items-center gap-5"
+      >
+        <!-- Left side -->
+        <div class="d-flex align-items-center justify-content-between gap-5">
+          <img src="./img/Logo-2.png" alt="Logo" style="width: auto" />
+          <p class="mb-0 text-muted">© 2020 Epixelab. All rights reserved.</p>
+        </div>
+
+        <!-- Right side -->
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#" class="text-dark text-decoration-none">Login</a>
+          <a href="#" class="text-dark text-decoration-none">About</a>
+          <a href="#" class="text-dark text-decoration-none">Pricing</a>
+          <a href="#" class="text-dark text-decoration-none">How it Works</a>
+          <a href="#" class="text-dark text-decoration-none">Portfolio</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
